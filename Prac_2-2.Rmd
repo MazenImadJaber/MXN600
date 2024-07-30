@@ -1,0 +1,66 @@
+---
+title: "Put your title here"
+author: "John Smith"
+date: "July 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Task
+Your task is to perform a short regression analysis, investigating the relationship between two variables on the ``mtcars`` dataset. You will need to:
+
+1. Load the data
+2. Plot the data (e.g. ``mpg`` versus ``wt``)
+3. Write up the linear model as an equation (try using latex!)
+4. Fit the model and check your modelling assumptions.
+5. Plot and interpret the result.
+6. Write a conclusion
+
+Complete your an analysis in Rmarkdown document with the following headings:
+
+- Introduction
+- Data
+- Method
+- Results
+- Conclusion
+
+Additionally, you should attach a bibliography using a ``.bib`` file containing your references.
+
+Example of how to read in data in R below.
+
+```{r load_data}
+data("mtcars")
+```
+
+
+A template structure you can follow below.
+
+## Introduction
+
+
+
+## Data
+
+
+
+## Exploratory data analysis
+
+
+
+## Model
+
+
+
+## Results
+
+
+
+## Conclusions
+
+
+
+## Bibliography
+
